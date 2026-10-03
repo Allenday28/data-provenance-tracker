@@ -21,8 +21,11 @@ a heavyweight metadata system.
 
 ## Quick start
 
+Run these commands from the repository root. The packages live in `src/`, so add it to Python’s import path:
+
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
+export PYTHONPATH="$PWD/src"
 python examples/run_example.py
 ```
 
